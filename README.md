@@ -18,7 +18,8 @@ This project is in it's starting stage. It's barely working as a Discord bot. I'
 BOT_TOKEN=your_bot_token_here
 CLIENT_ID=your_client_id_here
 ```
-4. Run `node app.js` to start the bot. Upon success, you'll see the following message:
+4. Run the script `command-deploy.js` in the `scripts` directory to deploy the commands globally. You'll need to have the `application.commands` scope enabled in your bot's OAuth2 page.
+5. Run `node app.js` to start the bot. Upon success, you'll see the following message:
 ```plaintext
 Setting up listeners for {client name}
 ```
